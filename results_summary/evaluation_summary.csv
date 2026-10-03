@@ -1,0 +1,7 @@
+stage,count,reduction_from_raw_percent
+Raw Suricata alerts,1729794,0.0
+Operational noise flagged,1727921,99.89
+Meaningful/non-noise alerts retained,1873,99.89
+Rule-based correlated incidents,38158,97.79
+DBSCAN de-duplicated incidents,338,99.98
+Zeek telemetry events,619872,

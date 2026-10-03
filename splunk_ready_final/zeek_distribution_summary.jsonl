@@ -1,0 +1,5 @@
+{"zeek_log_type":"dns","events":293214}
+{"zeek_log_type":"conn","events":242920}
+{"zeek_log_type":"ssl","events":45485}
+{"zeek_log_type":"http","events":35968}
+{"zeek_log_type":"weird","events":2285}

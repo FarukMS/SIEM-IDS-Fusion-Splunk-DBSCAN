@@ -1,0 +1,59 @@
+{"signature":"SURICATA TCPv4 invalid checksum","category":"Generic Protocol Command Decode","severity":3,"alerts":1725279}
+{"signature":"SURICATA STREAM CLOSEWAIT FIN out of window","category":"Generic Protocol Command Decode","severity":3,"alerts":805}
+{"signature":"SURICATA STREAM FIN out of window","category":"Generic Protocol Command Decode","severity":3,"alerts":585}
+{"signature":"SURICATA Kerberos 5 weak encryption parameters","category":"Generic Protocol Command Decode","severity":3,"alerts":499}
+{"signature":"ET INFO GNU\/Linux APT User-Agent Outbound likely related to package management","category":"Not Suspicious Traffic","severity":3,"alerts":261}
+{"signature":"SURICATA STREAM Packet with invalid timestamp","category":"Generic Protocol Command Decode","severity":3,"alerts":224}
+{"signature":"SURICATA UDPv6 invalid checksum","category":"Generic Protocol Command Decode","severity":3,"alerts":211}
+{"signature":"ET INFO HTTP Request to a *.tw domain","category":"Potentially Bad Traffic","severity":2,"alerts":204}
+{"signature":"SURICATA HTTP unable to match response to request","category":"Generic Protocol Command Decode","severity":3,"alerts":179}
+{"signature":"SURICATA STREAM 3way handshake wrong seq wrong ack","category":"Generic Protocol Command Decode","severity":3,"alerts":176}
+{"signature":"SURICATA STREAM reassembly overlap with different data","category":"Generic Protocol Command Decode","severity":3,"alerts":163}
+{"signature":"ET USER_AGENTS Microsoft Device Metadata Retrieval Client User-Agent","category":"Misc activity","severity":3,"alerts":132}
+{"signature":"SURICATA Applayer Detect protocol only one direction","category":"Generic Protocol Command Decode","severity":3,"alerts":126}
+{"signature":"ET INFO Session Traversal Utilities for NAT (STUN Binding Request)","category":"Misc activity","severity":3,"alerts":124}
+{"signature":"SURICATA STREAM excessive retransmissions","category":"Generic Protocol Command Decode","severity":3,"alerts":98}
+{"signature":"ET DNS Query for .to TLD","category":"Potentially Bad Traffic","severity":2,"alerts":94}
+{"signature":"ET INFO Observed DNS Query to .biz TLD","category":"Potentially Bad Traffic","severity":2,"alerts":89}
+{"signature":"ET INFO Observed RMM Domain in DNS Lookup (pubnub .com)","category":"Misc activity","severity":3,"alerts":71}
+{"signature":"ET INFO Observed Discord Domain in DNS Lookup (discordapp .com)","category":"Misc activity","severity":3,"alerts":54}
+{"signature":"ET DNS Query to a *.pw domain - Likely Hostile","category":"Potentially Bad Traffic","severity":2,"alerts":40}
+{"signature":"ET DNS Query for .cc TLD","category":"Potentially Bad Traffic","severity":2,"alerts":36}
+{"signature":"ET INFO TLS Handshake Failure","category":"Potentially Bad Traffic","severity":2,"alerts":35}
+{"signature":"ET INFO Observed Discord Domain (discordapp .com in TLS SNI)","category":"Misc activity","severity":3,"alerts":34}
+{"signature":"SURICATA Applayer Wrong direction first Data","category":"Generic Protocol Command Decode","severity":3,"alerts":31}
+{"signature":"ET INFO NTLMv1 Session Setup Response - Challenge","category":"Misc activity","severity":3,"alerts":25}
+{"signature":"ET INFO NTLM Session Setup Request - Auth","category":"Misc activity","severity":3,"alerts":25}
+{"signature":"ET INFO NTLM Session Setup Request - Negotiate","category":"Misc activity","severity":3,"alerts":25}
+{"signature":"ET INFO Abused Hosting Domain in DNS Lookup (azurewebsites .net)","category":"Misc activity","severity":3,"alerts":21}
+{"signature":"ET INFO Session Traversal Utilities for NAT (STUN Binding Request On Non-Standard High Port)","category":"Misc activity","severity":3,"alerts":16}
+{"signature":"ET INFO DNS Query For XXX Adult Site Top Level Domain","category":"Potential Corporate Privacy Violation","severity":1,"alerts":14}
+{"signature":"ET INFO Suspicious Domain (polyfill .io) in DNS Lookup","category":"Potentially Bad Traffic","severity":2,"alerts":13}
+{"signature":"ET INFO Windows OS Submitting USB Metadata to Microsoft","category":"Misc activity","severity":3,"alerts":10}
+{"signature":"SURICATA STREAM TIMEWAIT ACK with wrong seq","category":"Generic Protocol Command Decode","severity":3,"alerts":10}
+{"signature":"SURICATA STREAM Packet with invalid ack","category":"Generic Protocol Command Decode","severity":3,"alerts":9}
+{"signature":"ET INFO External IP Lookup Domain (freegeiop .net in DNS lookup)","category":"Device Retrieving External IP Address Detected","severity":2,"alerts":9}
+{"signature":"ET INFO Suspicious Domain (polyfill .io) in TLS SNI","category":"Potentially Bad Traffic","severity":2,"alerts":7}
+{"signature":"SURICATA HTTP gzip decompression failed","category":"Generic Protocol Command Decode","severity":3,"alerts":6}
+{"signature":"SURICATA HTTP invalid response chunk len","category":"Generic Protocol Command Decode","severity":3,"alerts":5}
+{"signature":"ET INFO Vulnerable Java Version 1.8.x Detected","category":"Potentially Bad Traffic","severity":2,"alerts":5}
+{"signature":"SURICATA SMB file overlap","category":"Generic Protocol Command Decode","severity":3,"alerts":4}
+{"signature":"ET INFO Session Traversal Utilities for NAT (STUN Binding Response)","category":"Misc activity","severity":3,"alerts":4}
+{"signature":"ET INFO Observed RMM Domain in TLS SNI (pubnub .com)","category":"Misc activity","severity":3,"alerts":3}
+{"signature":"ET HUNTING Javascript Mobile Device Check","category":"Misc activity","severity":3,"alerts":3}
+{"signature":"SURICATA STREAM SHUTDOWN RST invalid ack","category":"Generic Protocol Command Decode","severity":3,"alerts":3}
+{"signature":"SURICATA STREAM FIN invalid ack","category":"Generic Protocol Command Decode","severity":3,"alerts":3}
+{"signature":"SURICATA STREAM ESTABLISHED invalid ack","category":"Generic Protocol Command Decode","severity":3,"alerts":3}
+{"signature":"SURICATA STREAM ESTABLISHED packet out of window","category":"Generic Protocol Command Decode","severity":3,"alerts":3}
+{"signature":"ET INFO Tencent Cloud Storage Domain in DNS Lookup (myqcloud .com)","category":"Misc activity","severity":3,"alerts":3}
+{"signature":"ET INFO Self Signed SSL Certificate (SomeOrganizationalUnit)","category":"Potential Corporate Privacy Violation","severity":1,"alerts":2}
+{"signature":"SURICATA FRAG IPv4 Fragmentation overlap","category":"Generic Protocol Command Decode","severity":3,"alerts":2}
+{"signature":"ET INFO Pastebin-like Service Domain in DNS Lookup (jsfiddle .net)","category":"Misc activity","severity":3,"alerts":2}
+{"signature":"SURICATA HTTP invalid Range header value","category":"Generic Protocol Command Decode","severity":3,"alerts":2}
+{"signature":"ET INFO JAVA - ClassID","category":"Misc activity","severity":3,"alerts":1}
+{"signature":"ET HUNTING [TW] Likely Javascript-Obfuscator Usage Observed M1","category":"Misc activity","severity":3,"alerts":1}
+{"signature":"ET INFO HTTP Request to a *.asia domain","category":"Potentially Bad Traffic","severity":2,"alerts":1}
+{"signature":"SURICATA HTTP Host header invalid","category":"Generic Protocol Command Decode","severity":3,"alerts":1}
+{"signature":"SURICATA HTTP Request abnormal Content-Encoding header","category":"Generic Protocol Command Decode","severity":3,"alerts":1}
+{"signature":"SURICATA Applayer Mismatch protocol both directions","category":"Generic Protocol Command Decode","severity":3,"alerts":1}
+{"signature":"SURICATA STREAM ESTABLISHED SYNACK resend with different seq","category":"Generic Protocol Command Decode","severity":3,"alerts":1}

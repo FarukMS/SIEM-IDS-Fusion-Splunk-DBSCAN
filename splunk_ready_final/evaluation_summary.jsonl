@@ -1,0 +1,6 @@
+{"stage":"Raw Suricata alerts","count":1729794,"reduction_from_raw_percent":0.0}
+{"stage":"Operational noise flagged","count":1727921,"reduction_from_raw_percent":99.89}
+{"stage":"Meaningful\/non-noise alerts retained","count":1873,"reduction_from_raw_percent":99.89}
+{"stage":"Rule-based correlated incidents","count":38158,"reduction_from_raw_percent":97.79}
+{"stage":"DBSCAN de-duplicated incidents","count":338,"reduction_from_raw_percent":99.98}
+{"stage":"Zeek telemetry events","count":619872,"reduction_from_raw_percent":null}

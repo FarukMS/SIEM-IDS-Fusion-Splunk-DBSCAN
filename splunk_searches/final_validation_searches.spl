@@ -1,0 +1,24 @@
+# DBSCAN de-duplicated incident count
+index=fusion_results_final sourcetype=_json host=CICIDS2017_JSON source="*/dbscan_deduplicated_incidents.jsonl"
+| stats count AS deduplicated_incidents
+
+# Priority distribution
+index=fusion_results_final sourcetype=_json host=CICIDS2017_JSON source="*/priority_distribution.jsonl"
+| rename count AS incidents
+| table priority incidents
+| sort priority
+
+# Zeek telemetry distribution
+index=fusion_results_final sourcetype=_json host=CICIDS2017_JSON source="*/zeek_distribution_summary.jsonl"
+| table zeek_log_type events
+| sort - events
+
+# Suricata signature summary
+index=fusion_results_final sourcetype=_json host=CICIDS2017_JSON source="*/suricata_signature_summary_final.jsonl"
+| table signature category severity alerts
+| sort - alerts
+
+# JSONL source validation
+index=fusion_results_final sourcetype=_json host=CICIDS2017_JSON
+| stats count by source
+| sort source
